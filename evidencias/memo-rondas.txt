@@ -1,0 +1,26 @@
+=== A: calentamiento | 2026-11-06T02:57:23Z
+{"http":200,"clienteSeg":2.607324,"nth":1000,"estabaEnMemo":false,"duracionMs":1,"tamanoMemo":1001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":209}
+{"http":200,"clienteSeg":0.41746,"nth":5000,"estabaEnMemo":false,"duracionMs":6,"tamanoMemo":5001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":1045}
+{"http":200,"clienteSeg":0.452035,"nth":8000,"estabaEnMemo":false,"duracionMs":1,"tamanoMemo":8001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":1672}
+{"http":200,"clienteSeg":0.39864,"nth":12000,"estabaEnMemo":false,"duracionMs":2,"tamanoMemo":12001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":2508}
+{"http":200,"clienteSeg":0.556654,"nth":20000,"estabaEnMemo":false,"duracionMs":11,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":4180}
+=== B: repeticion inmediata | 2026-11-06T02:57:28Z
+{"http":200,"clienteSeg":0.669154,"nth":1000,"estabaEnMemo":true,"duracionMs":0,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":209}
+{"http":200,"clienteSeg":0.478973,"nth":5000,"estabaEnMemo":true,"duracionMs":0,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":1045}
+{"http":200,"clienteSeg":0.416005,"nth":8000,"estabaEnMemo":true,"duracionMs":0,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":1672}
+{"http":200,"clienteSeg":0.467255,"nth":12000,"estabaEnMemo":true,"duracionMs":0,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":2508}
+{"http":200,"clienteSeg":0.478365,"nth":20000,"estabaEnMemo":true,"duracionMs":0,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":4180}
+=== C: limite | 2026-11-06T02:57:31Z
+{"http":500,"clienteSeg":0.447161,"nth":1000000,"estabaEnMemo":false,"duracionMs":2,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","error":"Maximum call stack size exceeded"}
+=== D: tras 5 min sin uso | 2026-11-06T03:02:32Z
+{"http":200,"clienteSeg":0.576376,"nth":20000,"estabaEnMemo":true,"duracionMs":0,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":4180}
+{"http":200,"clienteSeg":0.415656,"nth":12000,"estabaEnMemo":true,"duracionMs":0,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":2508}
+{"http":200,"clienteSeg":0.415503,"nth":8000,"estabaEnMemo":true,"duracionMs":0,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":1672}
+{"http":200,"clienteSeg":0.412628,"nth":5000,"estabaEnMemo":true,"duracionMs":0,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":1045}
+{"http":200,"clienteSeg":0.4214,"nth":1000,"estabaEnMemo":true,"duracionMs":0,"tamanoMemo":20001,"instanciaIniciada":"2026-11-06T02:57:26.508Z","instancia":"c2c268d6","digitos":209}
+=== E: tras 30 min sin uso | 2026-11-06T03:32:35Z
+{"http":500,"clienteSeg":2.970764,"nth":20000,"estabaEnMemo":false,"duracionMs":1,"tamanoMemo":2,"instanciaIniciada":"2026-11-06T03:32:37.958Z","instancia":"03cff541","error":"Maximum call stack size exceeded"}
+{"http":500,"clienteSeg":0.434486,"nth":12000,"estabaEnMemo":false,"duracionMs":2,"tamanoMemo":2,"instanciaIniciada":"2026-11-06T03:32:37.958Z","instancia":"03cff541","error":"Maximum call stack size exceeded"}
+{"http":500,"clienteSeg":0.379925,"nth":8000,"estabaEnMemo":false,"duracionMs":1,"tamanoMemo":2,"instanciaIniciada":"2026-11-06T03:32:37.958Z","instancia":"03cff541","error":"Maximum call stack size exceeded"}
+{"http":200,"clienteSeg":0.404458,"nth":5000,"estabaEnMemo":false,"duracionMs":3,"tamanoMemo":5001,"instanciaIniciada":"2026-11-06T03:32:37.958Z","instancia":"03cff541","digitos":1045}
+{"http":200,"clienteSeg":0.433568,"nth":1000,"estabaEnMemo":true,"duracionMs":0,"tamanoMemo":5001,"instanciaIniciada":"2026-11-06T03:32:37.958Z","instancia":"03cff541","digitos":209}

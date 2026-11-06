@@ -1,0 +1,83 @@
+newman
+
+ARSW Fibonacci Function
+
+Iteration 1/10
+
+→ Fibonacci
+  POST https://fibonacci-nduarte-gl8xv.azurewebsites.net/api/Fibonacci [200 OK, 209.23kB, 7.5s]
+  ✓  responde 200
+
+Iteration 2/10
+
+→ Fibonacci
+  POST https://fibonacci-nduarte-gl8xv.azurewebsites.net/api/Fibonacci [200 OK, 209.23kB, 8.1s]
+  ✓  responde 200
+
+Iteration 3/10
+
+→ Fibonacci
+  POST https://fibonacci-nduarte-gl8xv.azurewebsites.net/api/Fibonacci [200 OK, 209.23kB, 9.8s]
+  ✓  responde 200
+
+Iteration 4/10
+
+→ Fibonacci
+  POST https://fibonacci-nduarte-gl8xv.azurewebsites.net/api/Fibonacci [200 OK, 209.23kB, 9.5s]
+  ✓  responde 200
+
+Iteration 5/10
+
+→ Fibonacci
+  POST https://fibonacci-nduarte-gl8xv.azurewebsites.net/api/Fibonacci [200 OK, 209.23kB, 7s]
+  ✓  responde 200
+
+Iteration 6/10
+
+→ Fibonacci
+  POST https://fibonacci-nduarte-gl8xv.azurewebsites.net/api/Fibonacci [200 OK, 209.23kB, 7s]
+  ✓  responde 200
+
+Iteration 7/10
+
+→ Fibonacci
+  POST https://fibonacci-nduarte-gl8xv.azurewebsites.net/api/Fibonacci [200 OK, 209.23kB, 7.4s]
+  ✓  responde 200
+
+Iteration 8/10
+
+→ Fibonacci
+  POST https://fibonacci-nduarte-gl8xv.azurewebsites.net/api/Fibonacci [200 OK, 209.23kB, 7s]
+  ✓  responde 200
+
+Iteration 9/10
+
+→ Fibonacci
+  POST https://fibonacci-nduarte-gl8xv.azurewebsites.net/api/Fibonacci [200 OK, 209.23kB, 7.1s]
+  ✓  responde 200
+
+Iteration 10/10
+
+→ Fibonacci
+  POST https://fibonacci-nduarte-gl8xv.azurewebsites.net/api/Fibonacci [200 OK, 209.23kB, 6.9s]
+  ✓  responde 200
+
+┌─────────────────────────┬────────────────────┬───────────────────┐
+│                         │           executed │            failed │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│              iterations │                 10 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│                requests │                 10 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│            test-scripts │                 10 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│      prerequest-scripts │                  0 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│              assertions │                 10 │                 0 │
+├─────────────────────────┴────────────────────┴───────────────────┤
+│ total run duration: 1m 17.9s                                     │
+├──────────────────────────────────────────────────────────────────┤
+│ total data received: 2.09MB (approx)                             │
+├──────────────────────────────────────────────────────────────────┤
+│ average response time: 7.7s [min: 6.9s, max: 9.8s, s.d.: 1016ms] │
+└──────────────────────────────────────────────────────────────────┘

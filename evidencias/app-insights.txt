@@ -1,0 +1,45 @@
+### Peticiones por fase
+fase | peticiones | exitosas | promMs | maxMs | instancias
+1-frio | 10 | 10 | 27633 | 36764 | 4
+2-caliente | 10 | 10 | 18902 | 23562 | 4
+3-comparable | 40 | 40 | 7634 | 12289 | 4
+### Peticiones por instancia y fase
+fase | cloud_RoleInstance | peticiones | promMs
+1-frio | dd919192 | 5 | 36758
+1-frio | 10b2b9cf | 3 | 24007
+1-frio | b98f9143 | 1 | 10398
+1-frio | ff000c0c | 1 | 10125
+2-caliente | dd919192 | 3 | 20356
+2-caliente | 10b2b9cf | 3 | 23537
+2-caliente | b98f9143 | 2 | 14080
+2-caliente | ff000c0c | 2 | 14589
+3-comparable | dd919192 | 10 | 7394
+3-comparable | 10b2b9cf | 10 | 8082
+3-comparable | b98f9143 | 10 | 7605
+3-comparable | ff000c0c | 10 | 7454
+### CPU normalizada por instancia
+cloud_RoleInstance | maxCPU | promCPU | muestras
+10b2b9cf | 50.8 | 29 | 4
+b98f9143 | 32.4 | 15.7 | 4
+ff000c0c | 31.4 | 15.6 | 4
+dd919192 | 30.7 | 15.3 | 4
+### CPU promedio por minuto (todas las instancias)
+timestamp | maxCPU | promCPU | instancias
+2026-11-06T02:25:00Z | 50.8 | 12.9 | 4
+2026-11-06T02:26:00Z | 30.7 | 30 | 4
+2026-11-06T02:27:00Z | 36.4 | 32.7 | 4
+2026-11-06T02:28:00Z | 0 | 0 | 4
+### Arranque: instancias iniciando
+cloud_RoleInstance | eventos | primero
+10b2b9cf | 2 | 2026-11-06T02:24:15.4200322Z
+dd919192 | 2 | 2026-11-06T02:24:15.6614573Z
+b98f9143 | 2 | 2026-11-06T02:24:15.9923363Z
+ff000c0c | 2 | 2026-11-06T02:24:16.1060977Z
+176424064.0
+### Totales de todo el laboratorio (por funcion y codigo)
+name | resultCode | peticiones | segundos
+Fibonacci | 200 | 62 | 779
+FibonacciMemo | 200 | 33 | 2.1
+FibonacciMemo | 500 | 5 | 1.9
+### Unidades de ejecucion (MB-ms, metrica de Azure)
+180983296

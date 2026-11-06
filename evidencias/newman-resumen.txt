@@ -1,0 +1,14 @@
+=== frio | inicio 2026-11-06T02:24:11Z
+fin 2026-11-06T02:24:51Z
+Peticiones: 10 | Exitosas: 10 (100.0 %) | Fallidas: 0
+Tiempo de las exitosas (s): prom 28.85 | min 11.15 | max 38.67
+=== caliente | inicio 2026-11-06T02:24:51Z
+fin 2026-11-06T02:25:18Z
+Peticiones: 10 | Exitosas: 10 (100.0 %) | Fallidas: 0
+Tiempo de las exitosas (s): prom 19.79 | min 14.78 | max 25.26
+frio 11.1s/200 11.5s/200 25.0s/200 25.0s/200 25.0s/200 37.7s/200 37.8s/200 38.0s/200 38.6s/200 38.7s/200
+caliente 14.8s/200 15.2s/200 15.2s/200 15.3s/200 20.9s/200 21.1s/200 21.1s/200 24.2s/200 24.8s/200 25.3s/200
+=== comparable 4x10 | inicio 2026-11-06T02:25:37Z
+fin 2026-11-06T02:27:02Z
+Peticiones: 40 | Exitosas: 40 (100.0 %) | Fallidas: 0
+Tiempo de las exitosas (s): prom 7.99 | min 6.89 | max 12.55
